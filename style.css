@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.card {
+  background-color: #e0f7fa;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.card p {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0 0 0;
+}
